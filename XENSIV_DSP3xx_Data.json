@@ -1,0 +1,56 @@
+{
+    "frameEnd": "",
+    "frameStart": "",
+    "groups": [
+        {
+            "datasets": [
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 20,
+                    "min": -20,
+                    "title": "Pressure (hPa)",
+                    "units": "hPa (hectopascal)",
+                    "value": "%1",
+                    "widget": "bar"
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": true,
+                    "led": false,
+                    "log": false,
+                    "max": 200,
+                    "min": -200,
+                    "title": "Pressure (mbar)",
+                    "units": "mbar (millibar)",
+                    "value": "%2",
+                    "widget": "bar"
+                },
+                {
+                    "alarm": 0,
+                    "fft": false,
+                    "fftSamples": 1024,
+                    "graph": false,
+                    "led": false,
+                    "log": false,
+                    "max": 0,
+                    "min": 0,
+                    "title": "Temperature",
+                    "units": "Celcius",
+                    "value": "%3",
+                    "widget": ""
+                }
+            ],
+            "title": "XENSIV DPSxx",
+            "widget": ""
+        }
+    ],
+    "separator": "",
+    "title": "XENSIV_DPS-3xx_Data"
+}
